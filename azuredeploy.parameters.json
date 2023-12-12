@@ -2,8 +2,30 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccountName": {
-            "value": "abc"
+        "clusterName": {
+            "value": "divyaCluster"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "osDiskSizeGB": {
+            "value": 30
+        },
+        "linuxAdminUsername": {
+            "value": "Divya" 
+        },
+        "dnsPrefix": {
+            "value": "Divyadns" 
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_d2s_v3"
+        },
+       
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNfc6/NkpWGMOAWBpXx2SEwT3pZXgeqJw7ewCfC6Y9GUB6axG4t+lKI2DRb18V8kS14zd/71/tT0s8+6F64QKIIeJFKifYuH6ux5LQcww+F9vaJLhMJ2GmC8NJgoX/+uwY/7dh9NW5eeWkSbhnJq3sgl4y2T5KkCObKK50YEFR8Uv/c7kXXc180o8hyvBs7T5vo4RkewlD8sQZ8CFMOALQPmhbxkPQhaX38SuO6YxscOkIBY0C4+GUbmM/jnM1jVMyarHnPmxwLFmqBOoEG2bxPAxjzLEZiO/h1dlAa7JQJNJXXg7r3ecEgadlW1ISKCT70W8kmTEiqEJvs0eLxAQ9LcdhlWIvxaP1XgHfrOFMONSBgEa7zUWu9tBsI+N6TV9F4B64I6jxX8NK3YWz88TqlqbJk+2srYFBu6SWBzNHRiKd5RHDuY2XLYILx/hoIMn/aYQTcqqonQ+e4XYxNUq91uPp1L0x1ehY1VSjz8YbRVZBwRF9AFwbmMr3U1DQ+IU= generated-by-azure" 
         }
-    }
+    } 
 }
